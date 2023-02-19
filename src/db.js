@@ -11,4 +11,11 @@ const sequelize = new Sequelize(dbName, dbUser, dbPassword, {
     host: dbHost
 })
 
+// try {
+//   sequelize.authenticate()
+//   console.log('Conectamos com o Sequelize!')
+// } catch (error) {
+//   console.error('Não foi possível conectar:', error)
+// }
+
 export default sequelize;
